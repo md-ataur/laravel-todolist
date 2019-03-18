@@ -19,7 +19,6 @@
 							{{ method_field('DELETE') }}						
 							<button type="submit"><i class="far fa-trash-alt"></i></button>
 						</form>
-						<span><a href="{{'/todo/'.$data->id}}"></a></span>		
 					</div>
 				</li>	
 			@endforeach		
